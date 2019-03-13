@@ -3,9 +3,10 @@ class Book
   attr_reader :title
 
 GENRES = []
-  def initialize(title)
+  def initialize(title,genres)
     @title = title
-    GENRES << title
+    @genre = genre
+    GENRES << 
   end
 
   def turn_page
